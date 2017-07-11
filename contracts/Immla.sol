@@ -12,14 +12,14 @@ contract PresaleToken
     string public constant name = "IMMLA Presale Token";
     string public constant symbol = "IML";
     uint public constant decimals = 18;
-    uint public constant PRICE = 3080;  // per 1 Ether
+    uint public constant PRICE = 5200;  // per 1 Ether
 
     //  price
-    // Cap is 2000 ETH
-    // 1 eth = 3080 presale IMMLA tokens
-    // 
+    // Cap is 2747 ETH
+    // 1 eth = 5200;  presale IMMLA tokens
+    // 1 IML = 0,000192 ерм
     // ETH price ~220$ - 10.07.2017
-    uint public constant TOKEN_SUPPLY_LIMIT = PRICE * 2273 * (1 ether / 1 wei);
+    uint public constant TOKEN_SUPPLY_LIMIT = PRICE * 2747 * (1 ether / 1 wei);
 
     enum State{
        Init,
