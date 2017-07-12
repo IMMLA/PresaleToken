@@ -17,7 +17,7 @@ contract PresaleToken
     //  price
     // Cap is 2747 ETH
     // 1 eth = 5200;  presale IMMLA tokens
-    // 1 IML = 0,000192 ерм
+    // 1 IML = 0,000192 ETH
     // ETH price ~220$ - 10.07.2017
     uint public constant TOKEN_SUPPLY_LIMIT = PRICE * 2747 * (1 ether / 1 wei);
 
